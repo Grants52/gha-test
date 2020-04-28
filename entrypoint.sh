@@ -16,4 +16,8 @@ sh -c "nohup verdaccio --config $HOME/.config/verdaccio/config.yaml &>$tmp_regis
 sh -c "npm-auth-to-token -u test -p test -e test@test.com -r $local_registry"
 # Run nmp command
 #sh -c "npm publish --registry $local_registry $1"
-sh -c "npm whoami"
+sh -c "npm publish --registry $local_registry packages/css-framework"
+sh -c "npm publish --registry $local_registry packages/eslint-config-react"
+sh -c "npm publish --registry $local_registry packages/fonts"
+sh -c "npm publish --registry $local_registry packages/icon-library"
+sh -c "npm publish --registry $local_registry packages/react-component-library"
