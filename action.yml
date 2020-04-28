@@ -1,4 +1,4 @@
-name: 'Verdaccio Publish Action v2'
+name: 'Verdaccio Configure Action'
 description: 'This action will deploy your package to Verdaccio Registry'
 author: 'GitHub'
 inputs:
