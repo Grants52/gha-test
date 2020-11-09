@@ -10,6 +10,6 @@ jobs:
       - name: Run epics action
         uses: cloudaper/epics-action@v1
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          github-token: ${{secrets.GHA_ISSUES_TOKEN}}
           epic-label-name: 'Type: Epic'
 
