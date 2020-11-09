@@ -11,5 +11,5 @@ jobs:
         uses: cloudaper/epics-action@v1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
-#           epic-label-name: 'Type: Epic'
-          epic-label-name: test
+          epic-label-name: 'Type: Epic'
+
